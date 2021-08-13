@@ -3,6 +3,7 @@ import React from 'react';
 import { Helmet } from "react-helmet";
 
 import MenuBar from "./components/MenuBar";
+import AboutMe from "./components/AboutMe";
 
 function HomePage() {
   return (
@@ -12,6 +13,7 @@ function HomePage() {
         </Helmet>
 
         <MenuBar />
+        <AboutMe />
     </div>
   );
 }
