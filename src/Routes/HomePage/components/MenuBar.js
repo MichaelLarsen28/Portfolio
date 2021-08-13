@@ -2,6 +2,7 @@ import React from "react";
 import { withRouter } from "react-router-dom";
 import {Navbar, Container, Nav, NavDropdown} from "react-bootstrap";
 import Logo from "../../../Assets/Logo-4.png";
+import Resume from "../../../Assets/CV.pdf"
 
 
 import "./MenuBar.css";
@@ -26,9 +27,9 @@ const MenuBar = (props) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end">
         <Nav className="me-auto">
-          <Nav.Link href="#home">Email</Nav.Link>
-          <Nav.Link href="#link">LinkedIn</Nav.Link>
-          <Nav.Link href="#link">Resume</Nav.Link>
+          <Nav.Link href="mailto:michael.larsen@iinet.net.au">Email</Nav.Link>
+          <Nav.Link href="https://www.linkedin.com/in/michaellarsen28/" target="_blank">LinkedIn</Nav.Link>
+          <Nav.Link href={Resume} download="Michael_Larsen_CV">Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>
       </Container>
