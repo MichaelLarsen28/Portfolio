@@ -1,6 +1,6 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
-import { Container } from "react-bootsrap";
+import { Container, Row, Col } from "react-bootsrap";
 
 import "./AboutMe.css";
 
@@ -9,16 +9,18 @@ const AboutMe = (props) => {
 
   return (
     <React.Fragment>
-    <Container>
-      <div id="aboutme-parent">
-        <h1><b>
-        Hi, I'm Michael
-        </b>
-        </h1>
-        <textarea readOnly>
-          I'm studying a Bachelor's of Software Engineering at The University of Technology Sydney
-        </textarea>
-      </div>
+    <Container fluid>
+      <Row>
+        <Col>
+          <h1><b>
+          Hi, I'm Michael
+          </b>
+          </h1>
+          <textarea readOnly>
+            I'm studying a Bachelor's of Software Engineering at The University of Technology Sydney
+          </textarea>
+        </Col>
+      </Row>
     </Container>
     </React.Fragment>
   );
