@@ -9,7 +9,8 @@ const AboutMe = (props) => {
 
   return (
     <React.Fragment>
-    <Container fluid="md" id="aboutme-parent">
+    <div id="aboutme-parent">
+    <Container fluid="md" id="aboutme-container">
       <Row>
         <Col>
           <h1><b>
@@ -22,6 +23,7 @@ const AboutMe = (props) => {
         </Col>
       </Row>
     </Container>
+    </div>
     </React.Fragment>
   );
 };

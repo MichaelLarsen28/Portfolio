@@ -17,7 +17,7 @@ const MenuBar = (props) => {
     <React.Fragment>
     <div id="menubar-parent">
     <Navbar expand="lg">
-      <Container>
+      <Container className="menubar-container">
       <Navbar.Brand alt="HomePage" href="/">
       <h1> Michael Larsen </h1>
       <p>Undergraduate Software Engineer</p>

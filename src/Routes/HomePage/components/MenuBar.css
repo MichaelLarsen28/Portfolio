@@ -2,6 +2,29 @@
   margin-top: 2%;
 }
 
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #menubar-parent {
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+    #menubar-parent {
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+}
+
 #menubar-parent button{
   color: rgb(117,15,247);
   margin-bottom: 20px;
@@ -41,4 +64,12 @@
 
 .justify-content-end{
   margin-bottom: 15px;
+}
+
+.justify-content-end #work-link{
+  margin-top: 2px;
+}
+
+.justify-content-end .nav-link{
+  margin-left: 15px;
 }

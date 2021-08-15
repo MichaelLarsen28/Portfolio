@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 
 import MenuBar from "./components/MenuBar";
 import AboutMe from "./components/AboutMe";
+import Work from "./components/Work";
 
 function HomePage() {
   return (
@@ -14,6 +15,7 @@ function HomePage() {
 
         <MenuBar />
         <AboutMe />
+        <Work />
     </div>
   );
 }
