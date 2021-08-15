@@ -29,7 +29,7 @@ const MenuBar = (props) => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end">
-        <Nav className="ml-auto">
+        <Nav className="ms-auto">
           <Nav.Link href="mailto:michael.larsen@iinet.net.au">
             <IconContext.Provider value={{ className:"myReact-icons"}}>
             <MdEmail/>
