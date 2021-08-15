@@ -8,7 +8,7 @@ const AboutMe = (props) => {
 
   return (
     <React.Fragment>
-    <div id="aboutme-parent">
+    <div className="ms-auto">
       <h1><b>
       Hi, I'm Michael
       </b>
