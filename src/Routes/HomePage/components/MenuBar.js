@@ -1,7 +1,7 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
 import {IconContext} from "react-icons";
-import {Navbar, Nav} from "react-bootstrap";
+import {Navbar, Nav, Container} from "react-bootstrap";
 import Logo from "../../../Assets/Logo-5.png";
 import Resume from "../../../Assets/CV.pdf"
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
@@ -18,7 +18,7 @@ const MenuBar = (props) => {
     <React.Fragment>
     <div id="parent">
     <Navbar expand="lg">
-      <Nav className="container-fluid">
+      <Container>
       <Navbar.Brand alt="HomePage" href="/">
       <img
         alt=""
@@ -47,7 +47,7 @@ const MenuBar = (props) => {
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
-      </Nav>
+      </Container>
     </Navbar>
     </div>
     </React.Fragment>
