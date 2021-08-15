@@ -10,7 +10,7 @@
 
 #menubar-parent p {
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 #menubar-parent button {
@@ -18,7 +18,7 @@
   color: rgb(117,15,247);
   border: 1px solid rgb(117,15,247);
   border-radius: 10px;
-  font-weight: 300;
+  font-weight: 400;
   height: 30px;
   background: white;
 }
