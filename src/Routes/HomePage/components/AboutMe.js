@@ -1,5 +1,6 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
+import { Container } from "react-bootsrap";
 
 import "./AboutMe.css";
 
@@ -8,7 +9,7 @@ const AboutMe = (props) => {
 
   return (
     <React.Fragment>
-    <div className="ms-auto">
+    <Container className="ms-auto">
       <h1><b>
       Hi, I'm Michael
       </b>
@@ -16,7 +17,7 @@ const AboutMe = (props) => {
       <textarea readOnly>
         I'm studying a Bachelor's of Software Engineering at The University of Technology Sydney
       </textarea>
-    </div>
+    </Container>
     </React.Fragment>
   );
 };
