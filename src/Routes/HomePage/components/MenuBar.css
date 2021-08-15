@@ -27,6 +27,11 @@
   font-weight: 400;
   height: 30px;
   background: white;
+  transition-duration: 0.4s;
+}
+#menubar-parent #resume-button:hover {
+  background: rgb(117,15,247);
+  color: white;
 }
 
 .myReact-icons {
