@@ -41,7 +41,7 @@ const MenuBar = (props) => {
           </IconContext.Provider>
           </Nav.Link>
           <Nav.Link href={Resume} download="Michael_Larsen_CV">
-            <button> Resume </button>
+            <button id="resume-button"> Resume </button>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

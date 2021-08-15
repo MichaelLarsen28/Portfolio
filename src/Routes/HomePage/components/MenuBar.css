@@ -2,6 +2,12 @@
   margin-top: 2%;
 }
 
+#menubar-parent button{
+  color: rgb(117,15,247);
+  margin-bottom: 20px;
+  border: 1px solid rgb(117,15,247);
+}
+
 #menubar-parent h1 {
   font-size: 20px;
   font-weight: bold;
@@ -13,7 +19,7 @@
   font-weight: 400;
 }
 
-#menubar-parent button {
+#menubar-parent #resume-button {
   font-size: 15px;
   color: rgb(117,15,247);
   border: 1px solid rgb(117,15,247);
@@ -29,5 +35,5 @@
 }
 
 .justify-content-end{
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
