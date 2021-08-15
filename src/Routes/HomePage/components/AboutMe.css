@@ -1,11 +1,7 @@
 #aboutme-parent{
-  margin-top: 6%;
+  margin-top: 3%;
 }
-textarea{
+#aboutme-parent p{
   width:100%;
-  height: 250px !important;
-  resize: none;
-  border: none;
-  outline: none;
   padding-top: 10px;
 }

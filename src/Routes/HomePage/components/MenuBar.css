@@ -1,8 +1,31 @@
-#parent{
+#menubar-parent{
   margin-top: 2%;
+}
+
+#menubar-parent h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(117,15,247);
+}
+
+#menubar-parent p {
+  font-size: 15px;
+}
+
+#menubar-parent button {
+  font-size: 15px;
+  color: rgb(117,15,247);
+  border: 1px solid rgb(117,15,247);
+  border-radius: 5px;
+  height: 30px;
+  background: white;
 }
 
 .myReact-icons {
   color: black;
   font-size: 30px;
+}
+
+.justify-content-end{
+  margin-bottom: 20px;
 }
