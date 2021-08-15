@@ -9,14 +9,16 @@ const AboutMe = (props) => {
 
   return (
     <React.Fragment>
-    <Container className="ms-auto">
-      <h1><b>
-      Hi, I'm Michael
-      </b>
-      </h1>
-      <textarea readOnly>
-        I'm studying a Bachelor's of Software Engineering at The University of Technology Sydney
-      </textarea>
+    <Container>
+      <div id="aboutme-parent">
+        <h1><b>
+        Hi, I'm Michael
+        </b>
+        </h1>
+        <textarea readOnly>
+          I'm studying a Bachelor's of Software Engineering at The University of Technology Sydney
+        </textarea>
+      </div>
     </Container>
     </React.Fragment>
   );
