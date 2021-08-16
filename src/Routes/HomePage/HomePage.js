@@ -12,7 +12,7 @@ function HomePage() {
         <Helmet>
           <title>Michael Larsen | Software Engineer</title>
         </Helmet>
-
+        
         <MenuBar />
         <AboutMe />
         <Work />
