@@ -2,22 +2,21 @@ import React from 'react';
 //Helmet is used to set the title tag of the web page
 import { Helmet } from "react-helmet";
 
-import MenuBar from "./components/MenuBar";
-import AboutMe from "./components/AboutMe";
-import Work from "./components/Work";
+import Intro from "./sections/Intro";
+import Body from "./sections/Body";
 
-function HomePage() {
+function App() {
   return (
     <div className="App">
         <Helmet>
           <title>Michael Larsen | Software Engineer</title>
         </Helmet>
-        
-        <MenuBar />
-        <AboutMe />
-        <Work />
+
+        <Intro />
+        <Body />
+
     </div>
   );
 }
 
-export default HomePage;
+export default App;

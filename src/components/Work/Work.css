@@ -1,5 +1,6 @@
-#aboutme-parent{
-  margin-top: 3%;
+#work-parent {
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 /* ----------- Non-Retina Screens ----------- */
@@ -7,7 +8,7 @@
   and (min-device-width: 1200px)
   and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 1) {
-    #aboutme-parent {
+    #work-parent  {
       margin-left: 15%;
       margin-right: 15%;
     }
@@ -19,15 +20,12 @@
   and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) {
-    #aboutme-parent {
+    #work-parent  {
       margin-left: 15%;
       margin-right: 15%;
     }
 }
 
-#aboutme-parent p{
-  width:100%;
-  padding-top: 10px;
-  font-weight: 400;
-  line-height: 30px;
+#work-parent .card {
+  margin-top: 3%;
 }

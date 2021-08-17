@@ -1,5 +1,4 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
 import { Container, Card } from "react-bootstrap";
 
 import "./Work.css";
@@ -29,6 +28,4 @@ const Work = (props) => {
   );
 };
 
-// Wrapping Navbar in a withRouter function in order to give it access to
-// this.props.history to redirect the user to the different components
-export default withRouter(Work);
+export default Work;

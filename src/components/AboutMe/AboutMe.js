@@ -1,5 +1,4 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 
 import "./AboutMe.css";
@@ -35,6 +34,4 @@ const AboutMe = (props) => {
   );
 };
 
-// Wrapping Navbar in a withRouter function in order to give it access to
-// this.props.history to redirect the user to the different components
-export default withRouter(AboutMe);
+export default AboutMe;

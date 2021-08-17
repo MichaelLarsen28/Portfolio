@@ -1,17 +1,14 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
 import {IconContext} from "react-icons";
-import {Navbar, Nav, Container, Button} from "react-bootstrap";
-import Resume from "../../../Assets/CV.pdf"
+import {Navbar, Nav, Container} from "react-bootstrap";
+import Resume from "../../Assets/CV.pdf"
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 
 
 import "./MenuBar.css";
 
-
-// Using history in props for routing to different components
-const MenuBar = (props) => {
+const MenuBar = () => {
 
   return (
     <React.Fragment>
@@ -52,6 +49,4 @@ const MenuBar = (props) => {
   );
 };
 
-// Wrapping Navbar in a withRouter function in order to give it access to
-// this.props.history to redirect the user to the different components
-export default withRouter(MenuBar);
+export default MenuBar;
