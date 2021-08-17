@@ -19,10 +19,10 @@ const AboutMe = (props) => {
           </h1>
           <p>
             I'm a final year Software Engineering student at The University of
-            Technology Sydney. &nbsp; University has taught me how to approach
+            Technology Sydney. University has taught me how to approach
             and solve problems using agile decision-making metholodigies as well
-            teaching me how to work effectively in a team environment. &nbsp;
-            My internship experience at large, multi-industry and emerging companies,
+            teaching me how to work effectively in a team environment. My
+            internship experience at large, multi-industry and emerging companies,
             including Siemens and OneWiFi Australia, has provided me a platform
             to apply what i've learnt at University to real-world scenarios such as
             large-scale network and control system design, implementation and testing.
