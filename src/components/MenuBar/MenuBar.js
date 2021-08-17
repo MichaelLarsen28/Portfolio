@@ -1,7 +1,7 @@
 import React from "react";
 import {IconContext} from "react-icons";
 import {Navbar, Nav, Container} from "react-bootstrap";
-import Resume from "../../Assets/CV.pdf"
+import Resume from "../../Assets/CV2.pdf"
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { Link } from 'react-scroll';
