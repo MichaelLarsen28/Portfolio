@@ -45,11 +45,11 @@
 
 #menubar-parent #menubar-link-container {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 400;
   color: white;
   padding-right: 10px;
   cursor: pointer;
-  margin-top: 3px;
+  margin-top: 4px;
   margin-bottom: -0px;
   transition-duration: 0.4s;
 }
@@ -60,9 +60,9 @@
 #menubar-parent #resume-button {
   font-size: 15px;
   color: white;
-  border: 1.5px solid white;
+  border: 1px solid white;
   border-radius: 10px;
-  font-weight: 600;
+  font-weight: 400;
   height: 30px;
   background: transparent;
   transition-duration: 0.4s;
