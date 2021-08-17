@@ -4,7 +4,7 @@ import "./Body.css";
 
 export default function Body() {
   return (
-    <div className="body-container">
+    <div id='body' className="body-container">
       <Work />
     </div>
   );

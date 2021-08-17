@@ -4,6 +4,7 @@ import {Navbar, Nav, Container} from "react-bootstrap";
 import Resume from "../../Assets/CV.pdf"
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
+import { Link } from 'react-scroll';
 
 
 import "./MenuBar.css";
@@ -22,6 +23,9 @@ const MenuBar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end">
         <Nav className="ms-auto">
+        <Nav.Link id="menubar-link-container">
+          <Link id="menubar-link" to="body" spy={true} smooth={true} offset={50} duration={200}> Work </Link>
+        </Nav.Link>
         <Nav.Link href="mailto:michael.larsen@iinet.net.au">
           <IconContext.Provider value={{ className:"myReact-icons"}}>
           <MdEmail/>
