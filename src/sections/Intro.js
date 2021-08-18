@@ -6,7 +6,6 @@ import "./Intro.css";
 export default function Intro() {
   return (
     <div className="intro-container">
-      <MenuBar />
       <AboutMe />
       <div class="custom-shape-divider-bottom-1629183601">
           <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

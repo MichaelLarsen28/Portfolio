@@ -12,7 +12,7 @@ function MenuBar() {
 
 
 const changeBackground = () => {
-  if(window.scrollY >= 20) {
+  if(window.scrollY >= 15) {
     setMenubar(true)
   } else{
     setMenubar(false)
@@ -34,16 +34,16 @@ window.addEventListener('scroll', changeBackground)
       <Navbar.Collapse className="justify-content-end">
         <Nav className="ms-auto">
         <Nav.Link id="menubar-link-container">
-          <Link id="menubar-link" to="Academic" spy={true} smooth={true} offset={50} duration={200}> Academic </Link>
+          <Link id="menubar-link" to="Academic" smooth={true} offset={50} duration={200}> Academic </Link>
         </Nav.Link>
         <Nav.Link id="menubar-link-container">
-          <Link id="menubar-link" to="Professional" spy={true} smooth={true} offset={50} duration={200}> Professional </Link>
+          <Link id="menubar-link" to="Professional" smooth={true} offset={50} duration={200}> Professional </Link>
         </Nav.Link>
         <Nav.Link id="menubar-link-container">
-          <Link id="menubar-link" to="Teamwork" spy={true} smooth={true} offset={50} duration={200}> Teamwork & Service </Link>
+          <Link id="menubar-link" to="Teamwork" smooth={true} offset={50} duration={200}> Teamwork & Service </Link>
         </Nav.Link>
         <Nav.Link id="menubar-link-container">
-          <Link id="menubar-link" to="Leadership" spy={true} smooth={true} offset={50} duration={200}> Leadership </Link>
+          <Link id="menubar-link" to="Leadership" smooth={true} offset={50} duration={200}> Leadership </Link>
         </Nav.Link>
 
           <Nav.Link href={Resume} download="Michael_Larsen_CV">
