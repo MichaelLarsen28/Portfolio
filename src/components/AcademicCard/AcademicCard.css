@@ -1,0 +1,9 @@
+#academiccard-parent {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#academiccard-parent .card {
+  margin-top: 3%;
+  height: 200px;
+}

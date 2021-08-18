@@ -1,0 +1,9 @@
+#profcard-parent {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#profcard-parent .card {
+  margin-top: 3%;
+  height: 200px;
+}

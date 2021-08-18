@@ -1,0 +1,9 @@
+#leadcard-parent {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#leadcard-parent .card {
+  margin-top: 3%;
+  height: 200px;
+}

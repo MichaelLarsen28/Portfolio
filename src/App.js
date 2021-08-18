@@ -3,7 +3,11 @@ import React from 'react';
 import { Helmet } from "react-helmet";
 
 import Intro from "./sections/Intro";
-import Body from "./sections/Body";
+import Academic from "./sections/Academic";
+import Professional from "./sections/Professional";
+import Teamwork from "./sections/Teamwork";
+import Leadership from "./sections/Leadership";
+import Footer from "./sections/Footer";
 
 function App() {
   return (
@@ -13,7 +17,11 @@ function App() {
         </Helmet>
 
         <Intro />
-        <Body/>
+        <Academic/>
+        <Professional/>
+        <Teamwork/>
+        <Leadership/>
+        <Footer/>
 
     </div>
   );

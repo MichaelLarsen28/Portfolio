@@ -1,49 +1,44 @@
-#menubar-parent{
-  padding-top: 2%;
+.menubar-parent{
+  background: transparent;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
-/* ----------- Non-Retina Screens ----------- */
-@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-    #menubar-parent {
-      margin-left: 15%;
-      margin-right: 15%;
-    }
+.menubar-parent.active {
+  background: linear-gradient(180deg, #1B69FF 85%, transparent 50%);
 }
 
-/* ----------- Retina Screens ----------- */
-@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) {
-    #menubar-parent {
-      margin-left: 15%;
-      margin-right: 15%;
-    }
-}
-
-#menubar-parent button{
-  color: rgb(117,15,247);
+.menubar-parent button{
+  color: transparent;
+  background: transparent;
   margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  transition-duration: 0.4s;
+}
+
+.menubar-parent button:hover{
+  color: rgb(91,135,255);
+  background: transparent;
+  margin-bottom: 20px;
+  border-radius: 10px;
   border: 1px solid white;
 }
 
-#menubar-parent h1 {
+.menubar-parent h1 {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   color: white;
 }
 
-#menubar-parent p {
-  font-size: 15px;
+.menubar-parent p {
+  font-size: 14px;
   font-weight: 400;
   color: white;
 }
 
-#menubar-parent #menubar-link-container {
+.menubar-parent #menubar-link-container {
   font-size: 15px;
   font-weight: 400;
   color: white;
@@ -53,11 +48,11 @@
   margin-bottom: -0px;
   transition-duration: 0.4s;
 }
-#menubar-parent #menubar-link:hover {
+.menubar-parent #menubar-link:hover {
   color: rgb(	194, 210, 255);
 }
 
-#menubar-parent #resume-button {
+.menubar-parent #resume-button {
   font-size: 15px;
   color: white;
   border: 1px solid white;
@@ -67,7 +62,7 @@
   background: transparent;
   transition-duration: 0.4s;
 }
-#menubar-parent #resume-button:hover {
+.menubar-parent #resume-button:hover {
   background: rgb(91,135,255);
   color: white;
 }
@@ -75,14 +70,6 @@
 .myReact-icons {
   color: white;
   font-size: 30px;
-}
-
-.justify-content-end{
-  margin-bottom: 15px;
-}
-
-.justify-content-end #work-link{
-  margin-top: 2px;
 }
 
 .justify-content-end .nav-link{
