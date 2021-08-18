@@ -10,7 +10,8 @@
 }
 
 .menubar-parent.active {
-  background: #1B69FF ;
+  background: white;
+  border-bottom: 0.1px solid #ccc;
 }
 
 .menubar-parent button{
@@ -30,33 +31,47 @@
   border: 1px solid white;
 }
 
-.menubar-parent h1 {
+.menubar-parent .navbarbrand-h1 {
   font-size: 20px;
   font-weight: 700;
   color: white;
 }
+.menubar-parent .navbarbrand-h1.active {
+  color: black;
+}
 
-.menubar-parent p {
+.menubar-parent .navbarbrand-p {
   font-size: 14px;
   font-weight: 400;
   color: white;
 }
+.menubar-parent .navbarbrand-p.active {
+  color: black;
+}
 
 .menubar-parent #menubar-link-container {
+  margin-top: 3px;
+}
+
+.menubar-parent #menubar-link-container .menubar-link {
   font-size: 15px;
   font-weight: 400;
   color: white;
   padding-right: 10px;
+  text-decoration: none;
   cursor: pointer;
-  margin-top: 4px;
   margin-bottom: -0px;
   transition-duration: 0.4s;
 }
-.menubar-parent #menubar-link:hover {
+.menubar-parent #menubar-link-container .menubar-link:hover {
   color: rgb(	194, 210, 255);
 }
 
-.menubar-parent #resume-button {
+.menubar-parent #menubar-link-container .menubar-link.active {
+  color: black;
+}
+
+.menubar-parent .resume-button {
   font-size: 15px;
   color: white;
   border: 1px solid white;
@@ -66,14 +81,17 @@
   background: transparent;
   transition-duration: 0.4s;
 }
-.menubar-parent #resume-button:hover {
+.menubar-parent .resume-button.active {
+  color: black;
+  border: 1px solid black;
+}
+.menubar-parent .resume-button.active:hover {
+  background: rgb(235,235,235);
+  color: black;
+}
+.menubar-parent .resume-button:hover {
   background: rgb(91,135,255);
   color: white;
-}
-
-.myReact-icons {
-  color: white;
-  font-size: 30px;
 }
 
 .justify-content-end .nav-link{
