@@ -19,6 +19,7 @@ const changeBackground = () => {
   }
 };
 
+
 window.addEventListener('scroll', changeBackground)
 
   return (
@@ -37,19 +38,23 @@ window.addEventListener('scroll', changeBackground)
         <Nav className="ms-auto">
         <Nav.Link id="menubar-link-container">
           <Link className={menubar ? 'menubar-link active' : 'menubar-link'}
-          to="Academic" smooth={true} offset={50} duration={200}> Academic </Link>
+          to="Aboutme" smooth={true} offset={-90} duration={200}> About </Link>
         </Nav.Link>
         <Nav.Link id="menubar-link-container">
           <Link className={menubar ? 'menubar-link active' : 'menubar-link'}
-          to="Professional" smooth={true} offset={50} duration={200}> Professional </Link>
+          to="Academic" smooth={true} offset={-90} duration={200}> Academic </Link>
         </Nav.Link>
         <Nav.Link id="menubar-link-container">
           <Link className={menubar ? 'menubar-link active' : 'menubar-link'}
-          to="Teamwork" smooth={true} offset={50} duration={200}> Teamwork & Service </Link>
+          to="Professional" smooth={true} offset={-90} duration={200}> Professional </Link>
         </Nav.Link>
         <Nav.Link id="menubar-link-container">
           <Link className={menubar ? 'menubar-link active' : 'menubar-link'}
-          to="Leadership" smooth={true} offset={50} duration={200}> Leadership </Link>
+          to="Teamwork" smooth={true} offset={-90} duration={200}> Teamwork </Link>
+        </Nav.Link>
+        <Nav.Link id="menubar-link-container">
+          <Link className={menubar ? 'menubar-link active' : 'menubar-link'}
+          to="Leadership" smooth={true} offset={-90} duration={200}> Leadership </Link>
         </Nav.Link>
 
           <Nav.Link href={Resume} download="Michael_Larsen_CV">

@@ -22,15 +22,6 @@
   border: none;
   transition-duration: 0.4s;
 }
-
-.menubar-parent button:hover{
-  color: rgb(91,135,255);
-  background: transparent;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  border: 1px solid white;
-}
-
 .menubar-parent .navbarbrand-h1 {
   font-size: 20px;
   font-weight: 700;

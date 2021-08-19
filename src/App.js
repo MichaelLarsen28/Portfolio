@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 
 import MenuBar from "./components/MenuBar/MenuBar";
 import Intro from "./sections/Intro";
+import AboutMe from "./sections/AboutMe";
 import Academic from "./sections/Academic";
 import Professional from "./sections/Professional";
 import Teamwork from "./sections/Teamwork";
@@ -18,6 +19,7 @@ function App() {
         </Helmet>
         <MenuBar />
         <Intro />
+        <AboutMe />
         <Academic/>
         <Professional/>
         <Teamwork/>

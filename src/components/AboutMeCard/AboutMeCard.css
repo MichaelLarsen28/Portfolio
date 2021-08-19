@@ -1,0 +1,36 @@
+#aboutmecard-parent {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#aboutmecard-parent .card {
+  margin-top: 3%;
+  outline: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
+  width: 100%;
+  height: auto;
+}
+
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 2000px){
+    #aboutmecard-parent .card {
+      width: 65%;
+    }
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1.2em;
+    text-indent: -1.2em;
+}
+
+li:before {
+    content: "»";
+    display: block;
+    float: left;
+    width: 1.2em;
+    color: black;
+}

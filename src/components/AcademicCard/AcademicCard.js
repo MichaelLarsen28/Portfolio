@@ -11,7 +11,8 @@ const AcademicCard = (props) => {
     <div id="academiccard-parent">
       <Container fluid="md" id="academiccard-container">
         <Card>
-          <Card.Body>Academic Experiences and Projects</Card.Body>
+          <Card.Title style={{marginLeft:'15px', marginTop:'15px'}} >Academic Experiences and Projects</Card.Title>
+            <Card.Body>Academic Experiences and Projects</Card.Body>
         </Card>
       </Container>
     </div>
