@@ -9,35 +9,33 @@ import "./AcademicCarousel.css";
 function AcademicCarousel() {
 
   return (
-    <React.Fragment>
     <div id="academiccarousel-parent">
-      <Container fluid="md" id="academiccarousel-container">
+      <div className="my__carousel_main">
         <Carousel variant="dark">
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={Photo1}
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={Photo2}
-              alt="Second slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={Photo3}
-              alt="Third slide"
-            />
-          </Carousel.Item>
-        </Carousel>
-      </Container>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={Photo1}
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={Photo2}
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={Photo3}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+          </Carousel>
+      </div>
     </div>
-    </React.Fragment>
   );
 };
 

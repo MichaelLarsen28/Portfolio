@@ -7,8 +7,16 @@ import "./Academic.css";
 export default function Body() {
   return (
     <div id='Academic' className="academic-container">
-          <AcademicCard />
-          <AcademicCarousel />
+          <Container>
+            <Row>
+              <Col md={6} sm={12} xs={12}>
+                <AcademicCard />
+              </Col>
+              <Col md={6} sm={12} xs={12}>
+                <AcademicCarousel />
+              </Col>
+            </Row>
+          </Container>
     </div>
   );
 }
