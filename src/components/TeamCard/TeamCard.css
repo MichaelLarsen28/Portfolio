@@ -3,6 +3,8 @@
   padding-bottom: 2%;
 }
 #teamcard-parent .card {
-  margin-top: 3%;
-  height: 200px;
+  outline: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
+  height: auto;
 }

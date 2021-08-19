@@ -26,11 +26,11 @@ const AboutMeCard = (props) => {
              </p>
 
              <p>
-             Fast-forward to today, and I’ve been able to pursue my interests in
-             technology and engineering through university and apply what I’ve
-             learnt to real-word scenarios such as large-scale
-             network and control system design, implementation and testing
-             through my internship experiences at large, multi-industry
+             Fast-forward to today, and I’ve been able to pursue my interests
+             in technology and engineering through university. I’ve applied what
+             I’ve learnt to real-word scenarios such as large-scale network
+             testing and control system integration.  These experiences were
+             gained through my internships at large, multi-industry
              organisations and smaller emerging companies.
              </p>
 
