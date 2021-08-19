@@ -1,9 +1,9 @@
-#academiccard-parent {
-  padding-top: 2%;
-  padding-bottom: 0%;
+#academiccard2-parent {
+  padding-top: 0%;
+  padding-bottom: 2%;
 }
 
-#academiccard-parent .card {
+#academiccard2-parent .card {
   margin-top: 3%;
   outline: none;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;

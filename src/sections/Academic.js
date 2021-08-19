@@ -1,6 +1,7 @@
 import React from 'react';
 import AcademicCard from "../components/AcademicCard/AcademicCard";
 import AcademicCarousel from "../components/AcademicCarousel/AcademicCarousel";
+import AcademicCard2 from "../components/AcademicCard2/AcademicCard2";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Academic.css";
 
@@ -15,6 +16,9 @@ export default function Body() {
               <Col md={6} sm={12} xs={12}>
                 <AcademicCarousel />
               </Col>
+            </Row>
+            <Row>
+                <AcademicCard2 />
             </Row>
           </Container>
     </div>
