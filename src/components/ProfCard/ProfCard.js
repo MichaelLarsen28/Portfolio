@@ -28,6 +28,16 @@ const ProfCard = (props) => {
           customer and participated in multiple meetings to get the plant
           running with the new control system.
           </p>
+          <p>
+          When I wasn’t on site, I was building an energy output dashboard for
+          the Siemens Energy Sydney office.   The premise of the dashboard was
+          to display the energy output of Asia-Pacific power stations that use
+          the Siemens Energy distributed control system.  The technology I used
+           included Python, specifically pandas and NumPy libraries for web
+           scraping and data manipulation.  I also used JavaScript, CSS and an
+           open-source JavaScript library called Leaflet to display an
+          interactive map. 
+          </p>
 
           <p><b>02.</b>&nbsp;OneWiFi Australia</p>
 

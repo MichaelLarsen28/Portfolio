@@ -20,7 +20,8 @@ const AcademicCard2 = (props) => {
             </p>
 
             <p>
-            <a href={DeansList} download="Michael_Larsen_Deans_List">
+            <a href={DeansList} download="Michael_Larsen_Deans_List"
+            style={{color: '#1221ff'}}>
             Click here</a> for my Dean's List Certificate.
             </p>
 

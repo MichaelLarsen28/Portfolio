@@ -27,7 +27,7 @@ const AcademicCard = (props) => {
             for these subjects.
             </p>
 
-            <p style={{color: 'rgb(9,31,252)'}}>
+            <p style={{color: '#1221ff'}}>
             Some examples of the websites I built are shown to the side:
             </p>
 

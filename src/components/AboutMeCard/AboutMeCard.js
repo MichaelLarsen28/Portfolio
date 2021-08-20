@@ -37,7 +37,7 @@ const AboutMeCard = (props) => {
              problem solving.
              </p>
 
-             <p style={{color: 'rgb(9,31,252)'}}>
+             <p style={{color: '#1221ff'}}>
              Here are a few technologes I've been working with recently:
              </p>
              <p>
