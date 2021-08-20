@@ -10,9 +10,6 @@ const AcademicCard = (props) => {
     <React.Fragment>
     <div id="academiccard-parent">
         <Card>
-          <Card.Title
-          style={{marginLeft:'15px', marginTop:'15px', color: 'rgb(9,31,252)'}}>
-          Academic Experiences and Projects</Card.Title>
             <Card.Body>
             <p>
             At university we take multiple studio classes for software
@@ -22,13 +19,15 @@ const AcademicCard = (props) => {
             technical growth I also experienced the software development
             life cycle from receiving the requirements from the client,
             planning, and analysing to implementing and maintaining the product.
+            </p>
+            <p>
             I also learnt how to work in an agile framework using scrum to
             develop and deliver the highest value product to the client.
             I have received two high distinctions and one distinction so far
             for these subjects.
             </p>
 
-            <p>
+            <p style={{color: 'rgb(9,31,252)'}}>
             Some examples of the websites I built are shown to the side:
             </p>
 

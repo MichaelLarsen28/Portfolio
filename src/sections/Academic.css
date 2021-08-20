@@ -1,4 +1,18 @@
 .academic-container{
-  background: white;
+  background: rgb(248,246,255);
   width: 100%;
+}
+
+.academic-container h1 {
+  padding-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  font-size: 1.8em;
+  text-align: center;
+  color: #1221ff;
+}
+
+.academic-container h1 span {
+ background-size:  100% 15%;
+ background-repeat: repeat-x;
+ background-position: left 0% bottom 10%;
 }

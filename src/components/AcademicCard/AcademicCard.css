@@ -2,11 +2,11 @@
   padding-top: 2%;
   padding-bottom: 0%;
 }
-
 #academiccard-parent .card {
   margin-top: 3%;
   outline: none;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border: none;
   height: auto;
+  border-radius: 10px;
 }

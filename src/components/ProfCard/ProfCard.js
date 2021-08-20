@@ -11,9 +11,6 @@ const ProfCard = (props) => {
     <div id="profcard-parent">
       <Container fluid="md" id="profcard-container">
         <Card>
-        <Card.Title
-        style={{marginLeft:'15px', marginTop:'15px', color: 'rgb(9,31,252)'}}>
-        Professional Experiences and Projects</Card.Title>
           <Card.Body>
           <p><b>01.</b>&nbsp;Siemens Energy</p>
 

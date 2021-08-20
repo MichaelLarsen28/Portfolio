@@ -11,9 +11,6 @@ const AboutMeCard = (props) => {
     <div id="aboutmecard-parent">
       <Container fluid="md" id="aboutmecard-container">
         <Card>
-          <Card.Title style={{
-            marginLeft:'15px', marginTop:'15px', color: 'rgb(9,31,252)'}}>
-          About Me</Card.Title>
           <Card.Body>
             <p>
              I'm a final year Software Engineering student at The University
