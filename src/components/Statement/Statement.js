@@ -10,9 +10,13 @@ const Statement = (props) => {
     <React.Fragment>
     <div id="statement-parent">
     <Container fluid="md" id="statement-container">
-          <h1><b>Hi, I'm <span class="statement-title">Michael</span></b></h1>
+          <div className="wrapper">
+          <h1 className="typing-demo"><b>Hi, I'm Michael.</b></h1>
+          </div>
           <p>
-          I'm a design-minded undergraduate software engineer focused on approaching and solving <br />problemsin creative ways using agile decision-making methodologies.
+          I'm a design-minded undergraduate software engineer focused on
+          approaching and solving <br />problemsin creative ways using agile
+          decision-making methodologies.
           </p>
     </Container>
     </div>

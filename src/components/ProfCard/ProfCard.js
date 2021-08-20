@@ -12,7 +12,9 @@ const ProfCard = (props) => {
       <Container fluid="md" id="profcard-container">
         <Card>
           <Card.Body>
-          <p><b>01.</b>&nbsp;Siemens Energy</p>
+          <p><b>01.</b><a href="https://www.siemens-energy.com/global/en.html"
+          target="_blank" rel="noreferrer">
+          &nbsp;Siemens Energy</a></p>
 
           <p>
           Most of my internship at Siemens Energy was spent at a power station
@@ -36,13 +38,27 @@ const ProfCard = (props) => {
            included Python, specifically pandas and NumPy libraries for web
            scraping and data manipulation.  I also used JavaScript, CSS and an
            open-source JavaScript library called Leaflet to display an
-          interactive map. 
+          interactive map.
           </p>
-
-          <p><b>02.</b>&nbsp;OneWiFi Australia</p>
-
           <p>
-          blah blah blah
+          The internship allowed me to demonstrate and develop multiple
+          engineering competency standards set by Engineers Australia.
+          This is proven through the indicators of attainment shown below:
+          </p>
+          <p>
+            <ul>
+              <li>Identified, assessed and managed risks during my time at the
+              power station by engaging in daily safety briefings through
+              ‘Take 5’ forms where we assess the immediate danger to ourselves
+              and discuss ways to mitigate and eliminate these dangers.  I also
+              applied and implemented the workplace health and safety
+              requirements by adhering to the Lock Out Tag Out guidelines
+              when working on any part of the plant.</li>
+              <li>Built and maintained collaborative relationships with the
+               customer, sub-contractors and team members and collaborated
+               effectively within multi-disciplinary teams which included
+               multiple trades, engineers, commercial and management.</li>
+           </ul>
           </p>
 
           </Card.Body>

@@ -1,5 +1,5 @@
 #footerbar-parent{
-  padding-bottom: 3%;
+  padding-bottom: 1%;
   padding-top: 3%;
 }
 
@@ -9,9 +9,15 @@
 
 #footerbar-parent #footer-title{
   color: black;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   padding-bottom: 1%;
+}
+
+#footerbar-parent p{
+  color: black;
+  font-size: 12px;
+  padding-top: 2%;
 }
 
 #footerbar-parent a{

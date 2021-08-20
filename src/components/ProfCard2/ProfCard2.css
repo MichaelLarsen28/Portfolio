@@ -1,9 +1,9 @@
-#profcard-parent {
+#profcard2-parent {
   padding-top: 0%;
   padding-bottom: 2%;
 }
 
-#profcard-parent .card {
+#profcard2-parent .card {
   outline: none;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border: none;
@@ -11,7 +11,7 @@
   border-radius: 10px;
 }
 
-#profcard-parent .card a{
+#profcard2-parent .card a{
   text-decoration: none;
   color: #1221ff;
 }
