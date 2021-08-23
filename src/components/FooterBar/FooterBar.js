@@ -37,7 +37,7 @@ const FooterBar = () => {
            &nbsp;GitHub
           </a>
         </section>
-         <p>Desinged & Built by Michael Larsen </p>
+         <p>Designed & Built by Michael Larsen </p>
         </div>
     </div>
     </React.Fragment>
