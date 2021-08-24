@@ -7,7 +7,7 @@ export default function Body() {
   return (
     <div id='Professional' className="professional-container">
     <div className="title-container">
-      <h1><span class="title">Professional Expereinces and Projects</span></h1>
+      <h1><span class="title">Professional Experiences and Projects</span></h1>
     </div>
       <ProfCard />
       <ProfCard2 />
