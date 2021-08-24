@@ -9,7 +9,7 @@ export default function Body() {
   return (
     <div id='Academic' className="academic-container">
     <div className="title-container">
-      <h1><span class="title">Academic Expereinces and Projects</span></h1>
+      <h1><span class="title">Academic Experiences and Projects</span></h1>
     </div>
           <Container>
             <Row>
