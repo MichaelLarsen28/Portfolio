@@ -57,7 +57,7 @@ window.addEventListener('scroll', changeBackground)
           to="Leadership" smooth={true} offset={-90} duration={200}> Leadership </Link>
         </Nav.Link>
 
-          <Nav.Link href={Resume} download="Michael_Larsen_CV">
+          <Nav.Link href={Resume} download="Michael_Larsen_Resume">
             <button className={menubar ? 'resume-button active' : 'resume-button'}
             > Resume </button>
           </Nav.Link>

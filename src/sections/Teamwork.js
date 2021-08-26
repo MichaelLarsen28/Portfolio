@@ -6,6 +6,7 @@ export default function Body() {
   return (
     <div id='Teamwork' className="teamwork-container">
       <TeamCard />
+      <p> coming soon ... </p>
     </div>
   );
 }
