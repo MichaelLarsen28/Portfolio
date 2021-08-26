@@ -5,8 +5,10 @@ import "./Leadership.css";
 export default function Body() {
   return (
     <div id='Leadership' className="leadership-container">
-      <LeadCard />
-      <p> coming soon ... </p>
+      <div className="title-container">
+        <h1><span class="title">Leadership</span></h1>
+      </div>
+      <LeadCard/>
     </div>
   );
 }

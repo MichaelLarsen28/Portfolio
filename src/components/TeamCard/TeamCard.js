@@ -11,7 +11,7 @@ const TeamCard = (props) => {
     <div id="teamcard-parent">
       <Container fluid="md" id="teamcard-container">
         <Card>
-          <Card.Body>Teamwork</Card.Body>
+          <Card.Body>coming soon ...</Card.Body>
         </Card>
       </Container>
     </div>

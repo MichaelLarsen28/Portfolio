@@ -1,3 +1,17 @@
 .teamwork-container{
   background: rgb(255,241,229);
 }
+
+.teamwork-container h1 {
+  padding-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  font-size: 1.8em;
+  text-align: center;
+  color: #1221ff;
+}
+
+.teamwork-container h1 span {
+ background-size:  100% 15%;
+ background-repeat: repeat-x;
+ background-position: left 0% bottom 10%;
+}
