@@ -15,7 +15,7 @@ const Statement = (props) => {
           </div>
           <p>
           I'm a design-minded undergraduate software engineer focused on
-          approaching and solving <br />problems in creative ways using agile
+          approaching and solving problems in creative ways using agile
           decision-making methodologies.
           </p>
     </Container>

@@ -26,3 +26,13 @@
 .custom-shape-divider-bottom-1629183601 .shape-fill {
     fill: rgb(246,249,252);
 }
+
+.intro-container img{
+  text-align: center;
+  padding-top: 5%;
+  width: auto;
+  height: 356px;
+  border-radius: 0%;
+  object-fit: contain;
+  object-position: middle;
+}
