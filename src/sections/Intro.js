@@ -1,7 +1,7 @@
 import React from 'react';
 import Statement from "../components/Statement/Statement";
 import { Container, Row, Col} from "react-bootstrap";
-import SelfPortrait from "../Assets/SelfPortrait.jpeg"
+import SelfPortrait from "../Assets/SelfPortrait3.png"
 import "./Intro.css";
 
 export default function Intro() {
@@ -10,7 +10,7 @@ export default function Intro() {
       <Container>
         <Row>
           <Col md={5} sm={12} xs={12}
-           style={{display: 'flex', justifyContent: 'center'}}>
+           className="imageContainer">
             <img
               className="d-block"
               src={SelfPortrait}

@@ -27,12 +27,17 @@
     fill: rgb(246,249,252);
 }
 
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .intro-container img{
+  margin-top: 3.5%;
+  margin-bottom: 13%;
   text-align: center;
-  padding-top: 5%;
   width: auto;
   height: 356px;
-  border-radius: 0%;
   object-fit: contain;
   object-position: middle;
 }
