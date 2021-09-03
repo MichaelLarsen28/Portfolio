@@ -1,16 +1,16 @@
-.leadership-container{
+.research-container{
   background: white;
 }
 
-.leadership-container h1 {
+.research-container h1 {
   padding-top: 3.5rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 3vw;
   font-size: 1.8em;
   text-align: center;
   color: #1221ff;
 }
 
-.leadership-container h1 span {
+.research-container h1 span {
  background-size:  100% 15%;
  background-repeat: repeat-x;
  background-position: left 0% bottom 10%;

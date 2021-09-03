@@ -54,7 +54,7 @@ window.addEventListener('scroll', changeBackground)
         </Nav.Link>
         <Nav.Link id="menubar-link-container">
           <Link className={menubar ? 'menubar-link active' : 'menubar-link'}
-          to="Leadership" smooth={true} offset={-90} duration={200}> Leadership </Link>
+          to="Research" smooth={true} offset={-90} duration={200}> Research </Link>
         </Nav.Link>
 
           <Nav.Link href={Resume} download="Michael_Larsen_Resume">

@@ -1,15 +1,15 @@
 import React from "react";
 import { Container, Card } from "react-bootstrap";
 
-import "./LeadCard.css";
+import "./ResearchCard.css";
 
 // Using history in props for routing to different components
-const LeadCard = (props) => {
+const ResearchCard = (props) => {
 
   return (
     <React.Fragment>
-    <div id="leadcard-parent">
-      <Container fluid="md" id="leadcard-container">
+    <div id="researchcard-parent">
+      <Container fluid="md" id="researchcard-container">
         <Card>
           <Card.Body>coming soon ...</Card.Body>
         </Card>
@@ -19,4 +19,4 @@ const LeadCard = (props) => {
   );
 };
 
-export default LeadCard;
+export default ResearchCard;

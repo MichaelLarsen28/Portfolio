@@ -4,7 +4,7 @@
 
 .aboutme-container h1 {
   padding-top: 3.5rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2vw;
   font-size: 1.8em;
   text-align: center;
   color: #1221ff;
@@ -26,4 +26,19 @@
 
 .title:hover {
     background-size: 100% 88%;
+  }
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutme-container img{
+    margin-top: 1%;
+    margin-bottom: 4%;
+    text-align: center;
+    width: auto;
+    height: 500px;
+    object-fit: contain;
+    object-position: middle;
   }

@@ -8,7 +8,7 @@ import AboutMe from "./sections/AboutMe";
 import Academic from "./sections/Academic";
 import Professional from "./sections/Professional";
 import Teamwork from "./sections/Teamwork";
-import Leadership from "./sections/Leadership";
+import Research from "./sections/Research";
 import Footer from "./sections/Footer";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <Academic/>
         <Professional/>
         <Teamwork/>
-        <Leadership/>
+        <Research/>
         <Footer/>
 
     </div>
