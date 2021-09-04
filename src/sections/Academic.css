@@ -1,10 +1,10 @@
 .academic-container{
-  background: rgb(248,246,255);
+  background: white;
   width: 100%;
 }
 
 .academic-container h1 {
-  padding-top: 3.5rem;
+  padding-top: 5%;
   margin-bottom: 3vw;
   font-size: 1.8em;
   text-align: center;

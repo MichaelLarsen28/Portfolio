@@ -20,28 +20,28 @@ function MenuBar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end">
         <Nav className="ms-auto">
-        <Nav.Link id="menubar-link-container">
+        <Nav.Link className="nav-about" id="menubar-link-container">
           <Link className="menubar-link"
-          to="Aboutme" smooth={true} offset={-90} duration={200}> About </Link>
+          to="Aboutme" smooth={true} offset={60} duration={200}> About </Link>
         </Nav.Link>
-        <Nav.Link id="menubar-link-container">
+        <Nav.Link className="nav-academic" id="menubar-link-container">
           <Link className="menubar-link"
-          to="Academic" smooth={true} offset={-90} duration={200}> Academic </Link>
+          to="Academic" smooth={true} offset={60} duration={200}> Academic </Link>
         </Nav.Link>
-        <Nav.Link id="menubar-link-container">
+        <Nav.Link className="nav-prof" id="menubar-link-container">
           <Link className="menubar-link"
-          to="Professional" smooth={true} offset={-90} duration={200}> Professional </Link>
+          to="Professional" smooth={true} offset={30} duration={200}> Professional </Link>
         </Nav.Link>
-        <Nav.Link id="menubar-link-container">
+        <Nav.Link className="nav-teamwork" id="menubar-link-container">
           <Link className="menubar-link"
-          to="Teamwork" smooth={true} offset={-90} duration={200}> Teamwork </Link>
+          to="Teamwork" smooth={true} offset={60} duration={200}> Teamwork </Link>
         </Nav.Link>
-        <Nav.Link id="menubar-link-container">
+        <Nav.Link className="nav-research" id="menubar-link-container">
           <Link className="menubar-link"
-          to="Research" smooth={true} offset={-90} duration={200}> Research </Link>
+          to="Research" smooth={true} offset={60} duration={200}> Research </Link>
         </Nav.Link>
 
-          <Nav.Link href={Resume} download="Michael_Larsen_Resume">
+          <Nav.Link className="nav-resume" href={Resume} download="Michael_Larsen_Resume">
             <button className="resume-button"
             > Resume </button>
           </Nav.Link>

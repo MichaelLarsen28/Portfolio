@@ -38,6 +38,38 @@
   margin-bottom: -0px;
   transition-duration: 0.4s;
 }
+
+.nav-about{
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInDown 0.5s ease forwards;
+}
+.nav-academic{
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInDown 0.65s ease forwards;
+}
+.nav-prof{
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInDown 0.90s ease forwards;
+}
+.nav-teamwork{
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInDown 1.05s ease forwards;
+}
+.nav-research{
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInDown 1.2s ease forwards;
+}
+.nav-resume{
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInDown 1.35s ease forwards;
+}
+
 .menubar-parent #menubar-link-container .menubar-link:hover {
   color: rgb(	194, 210, 255);
 }
@@ -62,4 +94,11 @@
 
 .justify-content-end .nav-link{
   margin-left: 15px;
+}
+
+@keyframes fadeInDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

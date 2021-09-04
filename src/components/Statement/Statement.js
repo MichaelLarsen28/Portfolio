@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Typewriter from 'typewriter-effect';
+import { Container } from "react-bootstrap";
 import "./Statement.css";
 
 // Using history in props for routing to different components
@@ -11,11 +10,7 @@ const Statement = (props) => {
     <div id="statement-parent">
     <Container fluid="md" id="statement-container">
           <div className="typing-container">
-            <Typewriter
-              onInit={(typewriter) => {
-                typewriter.typeString("Hi, I'm Michael.").start();
-              }}
-            />
+              <h1> Hi I'm Michael. </h1>
           </div>
           <p>
           I'm a design-minded undergraduate software engineer focused on

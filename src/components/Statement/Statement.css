@@ -21,8 +21,17 @@
     font-family: 'Rubik';
 }
 
-#statement-parent .typewriter{
-color: white;
+#statement-parent .typing-container{
+  padding-top: 11%;
+  color: white;
+}
+
+#statement-parent .typing-container h1{
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeInUp 2s ease forwards;
+  font-weight: 600;
+  font-size: 1.2em;
 }
 
 
@@ -30,13 +39,13 @@ color: white;
   width:100%;
   color: white;
   padding-top: 10px;
-  padding-bottom: 8%;
+  padding-bottom: 10%;
   font-weight: 400;
   font-size: 1.3em;
   line-height: 35px;
   opacity: 0;
   transform: translateY(3rem);
-  animation: fadeInUp 2s ease calc(2.8s) forwards;
+  animation: fadeInUp 3s ease forwards;
 }
 
 @keyframes fadeInUp {
