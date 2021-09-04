@@ -17,7 +17,6 @@ function App() {
         <Helmet>
           <title>Michael Larsen | Software Engineer</title>
         </Helmet>
-        <MenuBar />
         <Intro />
         <AboutMe />
         <Academic/>
