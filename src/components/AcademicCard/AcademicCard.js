@@ -11,7 +11,7 @@ const AcademicCard = (props) => {
     <div id="academiccard-parent">
         <Card>
             <Card.Body>
-            <p>
+            <p >
             At university we take multiple studio classes for software
             engineering which focuses on web development.  I’ve enjoyed these
             classes as it allowed me to grow my technical skills and use

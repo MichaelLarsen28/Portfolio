@@ -64,13 +64,15 @@
 
 .menubar-parent .resume-button {
   font-size: 15px;
-  color: white;
   border: 1px solid white;
   border-radius: 10px;
-  font-weight: 400;
+  color: white;
+  font-weight: 600;
   height: 30px;
-  background: transparent;
   transition-duration: 0.4s;
+  background-color: rgba(255,255,255,0.4);
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(30px);
 }
 .menubar-parent .resume-button.active {
   color: black;

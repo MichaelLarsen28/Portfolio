@@ -18,7 +18,7 @@
 }
 
 #statement-parent h1{
-  color: white;
+color: white;
 }
 
 #statement-parent p{
@@ -27,6 +27,7 @@
   padding-top: 10px;
   padding-bottom: 8%;
   font-weight: 400;
+  font-size: 1.3em;
   line-height: 35px;
   opacity: 0;
   transform: translateY(3rem);
@@ -34,8 +35,8 @@
 }
 
 .typing-demo {
-  font-size: 2.2em;
-  font-weight: 500;
+  font-size: 2.7em;
+  font-weight: 400;
   position: relative;
   font-family: "Rubik", monospace;
   width: max-content
