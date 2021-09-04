@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import AboutMeCard from "../components/AboutMeCard/AboutMeCard";
 import { Container, Row, Col} from "react-bootstrap";
 import SelfPortrait from "../Assets/SelfPortrait6.png"
 import "./AboutMe.css";
 
-export default function Body() {
+function AboutMe() {
+  const [offsetY, setOffsetY] = useState(0);
+  const handleScroll = () => setOffsetY(window.pageYOffset);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  })
+
   return (
     <div id='Aboutme' className="aboutme-container">
       <div className="title-container">
@@ -28,3 +37,5 @@ export default function Body() {
     </div>
   );
 }
+
+export default AboutMe;

@@ -1,6 +1,7 @@
 body {
   margin: 0;
   width: 100%;
+  overscroll-behavior-y: none;
   font-family: 'Rubik';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

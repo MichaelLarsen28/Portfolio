@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react';
 //Helmet is used to set the title tag of the web page
 import { Helmet } from "react-helmet";
 
-import MenuBar from "./components/MenuBar/MenuBar";
 import Intro from "./sections/Intro";
 import AboutMe from "./sections/AboutMe";
 import Academic from "./sections/Academic";
@@ -35,15 +34,15 @@ function App() {
          <HashLoader color={"#1221ff"} loading={loading} size={60} />
          </div>
       :
-      <React.Fragment>
-        <Intro/>
-        <AboutMe />
-        <Academic/>
-        <Professional/>
-        <Teamwork/>
-        <Research/>
-        <Footer/>
-      </React.Fragment>
+          <React.Fragment>
+            <Intro/>
+            <AboutMe />
+            <Academic/>
+            <Professional/>
+            <Teamwork/>
+            <Research/>
+            <Footer/>
+          </React.Fragment>
     }
 
     </div>
