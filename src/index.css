@@ -1,12 +1,29 @@
+@font-face {
+    font-family: 'worksans';
+    src: url('./fonts/WorkSans-Regular.woff2') format('woff2'),
+         url('./fonts/WorkSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'worksans-bold';
+    src: url('./fonts/WorkSans-SemiBold.woff2') format('woff2'),
+         url('./fonts/WorkSans-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
 body {
   margin: 0;
   width: 100%;
   overscroll-behavior-y: none;
-  font-family: 'Rubik';
+  font-family: worksans !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: worksans;
 }

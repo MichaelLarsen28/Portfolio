@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import AboutMeCard from "../components/AboutMeCard/AboutMeCard";
 import { Container, Row, Col} from "react-bootstrap";
-import SelfPortrait from "../Assets/SelfPortrait6.png"
+import Fade from "react-reveal/Fade";
+import SelfPortrait from "../Assets/SelfPortrait2.png"
 import "./AboutMe.css";
 
 function AboutMe() {
@@ -16,9 +17,12 @@ function AboutMe() {
 
   return (
     <div id='Aboutme' className="aboutme-container">
+    <Fade bottom>
       <div className="title-container">
         <h1><span class="title">About Me</span></h1>
       </div>
+    </Fade>
+    <Fade bottom>
         <Container>
           <Row>
             <Col md={4} sm={12} xs={12}
@@ -34,6 +38,7 @@ function AboutMe() {
             </Col>
           </Row>
         </Container>
+      </Fade>
     </div>
   );
 }

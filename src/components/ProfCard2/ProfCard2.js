@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 import "./ProfCard2.css";
 
@@ -9,7 +9,6 @@ const ProfCard2 = (props) => {
   return (
     <React.Fragment>
     <div id="profcard2-parent">
-      <Container fluid="md" id="profcard2-container">
         <Card>
           <Card.Body>
           <p><b>01.</b><a href="https://www.onewifi.com.au/"
@@ -44,7 +43,7 @@ const ProfCard2 = (props) => {
           the future.
           </p>
           <p>
-          <a 
+          <a
           href="https://www.brokenhill.nsw.gov.au/News-articles/Green-light-for-CCTV-and-smart-lighting"
           target="_blank" rel="noreferrer">
           The project details can be found here. </a>
@@ -52,7 +51,6 @@ const ProfCard2 = (props) => {
 
           </Card.Body>
         </Card>
-      </Container>
     </div>
     </React.Fragment>
   );

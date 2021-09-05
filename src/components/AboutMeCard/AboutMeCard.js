@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 import "./AboutMeCard.css";
 
@@ -9,7 +9,6 @@ const AboutMeCard = (props) => {
   return (
     <React.Fragment>
     <div id="aboutmecard-parent">
-      <Container fluid="md" id="aboutmecard-container">
         <Card>
           <Card.Body>
             <p>
@@ -52,7 +51,6 @@ const AboutMeCard = (props) => {
              </p>
            </Card.Body>
         </Card>
-      </Container>
     </div>
     </React.Fragment>
   );

@@ -1,6 +1,14 @@
 .menubar-parent{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
   top: 0;
   z-index: 1;
+  background: rgb(248,248,248);
+}
+
+.menubar-parent.active {
+  background: white;
+  border-bottom: 1px solid black;
 }
 
 .menubar-parent button{
@@ -14,15 +22,26 @@
 .menubar-parent .navbarbrand-h1 {
   font-size: 20px;
   font-weight: 700;
-  color: white;
+  color: black;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInDown 2s ease 4.5s forwards;
+}
+.menubar-parent .navbarbrand-h1.active {
+  color: black;
 }
 
 .menubar-parent .navbarbrand-p {
   font-size: 14px;
   font-weight: 400;
-  color: white;
+  color: black;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInDown 2s ease 4.5s forwards;
 }
-
+.menubar-parent .navbarbrand-p.active {
+  color: black;
+}
 
 .menubar-parent #menubar-link-container {
   margin-top: 3px;
@@ -31,65 +50,74 @@
 .menubar-parent #menubar-link-container .menubar-link {
   font-size: 15px;
   font-weight: 400;
-  color: white;
+  color: rgb(90,90,90);
   padding-right: 10px;
   text-decoration: none;
   cursor: pointer;
   margin-bottom: -0px;
   transition-duration: 0.4s;
 }
+.menubar-parent #menubar-link-container .menubar-link:hover {
+  color: black;
+}
+.menubar-parent #menubar-link-container .menubar-link.active {
+  color: rgb(90,90,90);
+}
+.menubar-parent #menubar-link-container .menubar-link.active:hover {
+  color: black;
+}
 
 .nav-about{
   opacity: 0;
   transform: translateY(-20px);
-  animation: fadeInDown 0.5s ease forwards;
+  animation: fadeInDown 1s ease 4.5s forwards;
 }
 .nav-academic{
   opacity: 0;
   transform: translateY(-20px);
-  animation: fadeInDown 0.65s ease forwards;
+  animation: fadeInDown 1s ease 4.7s forwards;
 }
 .nav-prof{
   opacity: 0;
   transform: translateY(-20px);
-  animation: fadeInDown 0.90s ease forwards;
+  animation: fadeInDown 1s ease 4.8s forwards;
 }
 .nav-teamwork{
   opacity: 0;
   transform: translateY(-20px);
-  animation: fadeInDown 1.05s ease forwards;
+  animation: fadeInDown 1s ease 5s forwards;
 }
 .nav-research{
   opacity: 0;
   transform: translateY(-20px);
-  animation: fadeInDown 1.2s ease forwards;
+  animation: fadeInDown 1s ease 5.2s forwards;
 }
 .nav-resume{
   opacity: 0;
   transform: translateY(-20px);
-  animation: fadeInDown 1.35s ease forwards;
-}
-
-.menubar-parent #menubar-link-container .menubar-link:hover {
-  color: rgb(	194, 210, 255);
+  animation: fadeInDown 1s ease 5.4s forwards;
 }
 
 .menubar-parent .resume-button {
   font-size: 15px;
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 10px;
-  color: white;
+  color: black;
   font-weight: 400;
   height: 30px;
   transition-duration: 0.4s;
-  background-color: rgba(255,255,255,0.4);
-  border: 1px solid rgba(255,255,255,0.1);
-  backdrop-filter: blur(30px);
 }
-
-.menubar-parent .resume-button:hover {
-  background: rgb(235,235,235);
+.menubar-parent .resume-button.active {
   color: black;
+  border: 1px solid black;
+}
+.menubar-parent .resume-button.active:hover {
+  background: black;
+  color: white;
+}
+.menubar-parent .resume-button:hover {
+  background: black;
+  color: white;
 }
 
 .justify-content-end .nav-link{

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 import "./ProfCard.css";
 
@@ -9,7 +9,6 @@ const ProfCard = (props) => {
   return (
     <React.Fragment>
     <div id="profcard-parent">
-      <Container fluid="md" id="profcard-container">
         <Card>
           <Card.Body>
           <p><b>01.</b><a href="https://www.siemens-energy.com/global/en.html"
@@ -63,7 +62,6 @@ const ProfCard = (props) => {
 
           </Card.Body>
         </Card>
-      </Container>
     </div>
     </React.Fragment>
   );

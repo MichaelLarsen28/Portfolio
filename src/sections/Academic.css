@@ -1,5 +1,6 @@
 .academic-container{
   background: white;
+
 }
 
 .academic-container h1 {
@@ -7,7 +8,8 @@
   margin-bottom: 3vw;
   font-size: 1.8em;
   text-align: center;
-  color: #1221ff;
+  color: black;
+  font-family: worksans-bold !important;
 }
 
 .academic-container h1 span {
