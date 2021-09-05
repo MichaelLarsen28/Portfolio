@@ -23,9 +23,13 @@
   font-size: 20px;
   font-weight: 700;
   color: black;
-  opacity: 0;
-  transform: translateY(-20px);
-  animation: fadeInDown 2s ease 4.5s forwards;
+}
+@media only screen and (min-width: 991px) {
+  .menubar-parent .navbarbrand-h1 {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInDown 2s ease 4.5s forwards;
+  }
 }
 .menubar-parent .navbarbrand-h1.active {
   color: black;
@@ -35,9 +39,13 @@
   font-size: 14px;
   font-weight: 400;
   color: black;
-  opacity: 0;
-  transform: translateY(-20px);
-  animation: fadeInDown 2s ease 4.5s forwards;
+}
+@media only screen and (min-width: 991px) {
+  .menubar-parent .navbarbrand-p {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInDown 2s ease 4.5s forwards;
+  }
 }
 .menubar-parent .navbarbrand-p.active {
   color: black;
@@ -67,35 +75,42 @@
   color: black;
 }
 
-.nav-about{
-  opacity: 0;
-  transform: translateY(-20px);
-  animation: fadeInDown 1s ease 4.5s forwards;
+.nav-about, .nav-academic, .nav-prof,
+.nav-teamwork, .nav-research, .nav-resume{
+  opacity: 1;
 }
-.nav-academic{
-  opacity: 0;
-  transform: translateY(-20px);
-  animation: fadeInDown 1s ease 4.7s forwards;
-}
-.nav-prof{
-  opacity: 0;
-  transform: translateY(-20px);
-  animation: fadeInDown 1s ease 4.8s forwards;
-}
-.nav-teamwork{
-  opacity: 0;
-  transform: translateY(-20px);
-  animation: fadeInDown 1s ease 5s forwards;
-}
-.nav-research{
-  opacity: 0;
-  transform: translateY(-20px);
-  animation: fadeInDown 1s ease 5.2s forwards;
-}
-.nav-resume{
-  opacity: 0;
-  transform: translateY(-20px);
-  animation: fadeInDown 1s ease 5.4s forwards;
+
+@media only screen and (min-width: 991px) {
+  .nav-about{
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInDown 1s ease 4.5s forwards;
+  }
+  .nav-academic{
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInDown 1s ease 4.7s forwards;
+  }
+  .nav-prof{
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInDown 1s ease 4.8s forwards;
+  }
+  .nav-teamwork{
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInDown 1s ease 5s forwards;
+  }
+  .nav-research{
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInDown 1s ease 5.2s forwards;
+  }
+  .nav-resume{
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInDown 1s ease 5.4s forwards;
+  }
 }
 
 .menubar-parent .resume-button {

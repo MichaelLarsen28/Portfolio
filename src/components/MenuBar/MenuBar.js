@@ -22,7 +22,7 @@ window.addEventListener('scroll', changeBackground)
   return (
     <React.Fragment>
     <div className={menubar ? 'menubar-parent active' : 'menubar-parent'}>
-    <Navbar expand="lg" variant={menubar ? 'light' : 'dark'}>
+    <Navbar expand="lg" variant='light'>
       <Container className="menubar-container">
       <Navbar.Brand alt="HomePage" href="/">
       <h1 className={menubar ? 'navbarbrand-h1 active' : 'navbarbrand-h1'}
