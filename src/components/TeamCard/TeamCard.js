@@ -39,6 +39,19 @@ const TeamCard = (props) => {
               </p>
             <p style={{color: '#000000'}}><b>Work</b></p>
               <p>
+                I experienced teamwork in multiple projects across
+                 multidisciplinary teams during my internships.
+                 <b style={{color: '#841584', fontWeight: '600'}}> The key skills
+                 I learnt include: </b>
+              </p>
+              <p>
+                <ul>
+                  <li>Communication - meetings, client interaction and project work</li>
+                  <li>Time management – prioritising tasks and delivering on deadlines</li>
+                  <li>Listening – open mind during group work and utilising
+                  constructive criticism </li>
+                  <li>Collaboration – sharing different perspectives and experiences</li>
+               </ul>
               </p>
           </Card.Body>
         </Card>
