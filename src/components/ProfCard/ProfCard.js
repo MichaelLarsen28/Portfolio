@@ -41,7 +41,8 @@ const ProfCard = (props) => {
           </p>
           <p>
           The internship allowed me to demonstrate and develop multiple
-          engineering competency standards set by Engineers Australia.
+          engineering competency standards set by <b style={{color: '#841584'}}>
+          Engineers Australia. </b>
           This is proven through the indicators of attainment shown below:
           </p>
           <p>
