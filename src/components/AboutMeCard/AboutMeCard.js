@@ -47,6 +47,7 @@ const AboutMeCard = (props) => {
                  <li>React-Bootstrap, Material UI</li>
                  <li>CSS, SASS</li>
                  <li>Python (Pandas, Numpy)</li>
+                 <li>AWS (EC2, MQTT)</li>
               </ul>
              </p>
            </Card.Body>
